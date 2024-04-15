@@ -1,0 +1,10 @@
+.ClientsNavbarImages{
+    display: flex;
+    list-style-type: none;
+    background-color: #1b1b1b;
+}
+
+.contact-single img{
+    height: 12vh;
+    
+}

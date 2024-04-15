@@ -1,0 +1,49 @@
+.Clients-body{
+   align-items: center;
+   justify-content: center;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 34));
+    }
+}
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    
+
+}
+
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 68);
+}
+.slider .slide{
+    height: 100px;
+    width: auto;
+
+}
+.slide img{
+    height: 100%;
+    
+    
+}
+
+.Clients-body h4{
+   
+    padding-top: 3vw;
+    
+    
+}
+.clients-hr-space{
+color: white;    
+height: 5vw;
+
+}

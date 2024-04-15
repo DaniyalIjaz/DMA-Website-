@@ -1,0 +1,29 @@
+.about-sec{
+    max-height: 30vh;
+}
+
+.about-btn a{
+    text-decoration: none;
+    background: whitesmoke;
+    color: #1e1f21;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-btn a:hover{
+    background: #1e1f21;
+    color: whitesmoke
+    ;
+  }
+
+@media screen and (max-width: 800px) {
+    .About-p{
+            font-size: 80%;
+    }
+    
+}
