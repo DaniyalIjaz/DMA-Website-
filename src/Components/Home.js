@@ -6,6 +6,7 @@ import Clients from "./Clients";
 import CEOmessage from "./CEOmessage";
 import OurMission from "./OurMission";
 import Whatmakesusdifferent from "./Whatmakesusdifferent";
+import ProejectsHome from "./ProejectsHome";
 
 
 
@@ -17,11 +18,12 @@ export default function Home() {
       <>
       <Carousel/>
       <Services/>
-      <Work/>
+      <ProejectsHome/>
       <CEOmessage/>
       <OurMission/>
-      <Whatmakesusdifferent/>
       <Clients/>
+      <Work/>
+      <Whatmakesusdifferent/>
       <Footer/>
       
       

@@ -18,7 +18,7 @@ const Services = () => {
             <img src="./image/Archi.jpg" alt="" />
             <div className="overlay">
               <h3>ARCHITECTURE</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse repellat magnam fuga.</p>
+              <p>Our architects turn the visions into stunning structures.</p>
               <NavLink to="/Architecture">More Info</NavLink>
             </div>
           </div>
@@ -27,7 +27,7 @@ const Services = () => {
             <img src="./image/Eng.jpg" alt="" />
             <div className="overlay">
             <h3>ENGINEERING</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse repellat magnam fuga.</p>
+              <p>Structural engineering is an area of specialization of Design Man Associates.</p>
               <NavLink to="/Engineering">More Info</NavLink>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Services = () => {
             <img src="./image/Cons.jpg" alt="" />
             <div className="overlay">
             <h3>CONSTRUCTION</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse repellat magnam fuga.</p>
+              <p>Design Man Associates offers both construction and construction management services.</p>
               <NavLink to="/Construction">More Info</NavLink>
             </div>
           </div>

@@ -17,14 +17,14 @@ const Navbar = () =>{
                 <input type='checkbox' id='check' />
                 <span class="menu">
                     <li><NavLink to="/">Home</NavLink></li>
-                    <li><a href="/">Projects</a></li>
+                    <li><NavLink to="/Projects">Projects</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
                     <li><NavLink to="/Team">Team</NavLink></li>
                     <li><NavLink to="/ClientsNavbar">Our Clientele</NavLink></li>
-                    <li><a href="/">Career</a></li>
+                    {/* <li><a href="/">Career</a></li> */}
                     <li><a href="/" data-bs-toggle="modal" data-bs-target="#myModal">Contact Us</a></li>
 
-                    <li><a href="/">Downloads</a></li>
+                    <li><NavLink to="/Downloads">Downloads</NavLink></li>
 
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>

@@ -3,7 +3,7 @@ import './Work.css'
 
 const Work = () => {
   return (
-    <div>
+    <div className='py-4'>
       <section className="work-main text-center" id="ourwork">
       <h3 className="display-6 ">Our Work</h3>
       <p>Take a chunk of our work by visiting our social handles.</p>

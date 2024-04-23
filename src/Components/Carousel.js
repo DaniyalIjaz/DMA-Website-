@@ -13,33 +13,33 @@ const Carousel = () => {
     </div> */}
     <div className="carousel-inner">
       <div className="carousel-item active">
-      <img src='./image/c1.jpg' className="d-block img-fluid mx-auto opacity-100" alt="..." />
+      <img src='./image/c1.jpg' className="d-block img-fluid mx-auto " alt="..." />
         <div className="container">
           <div className="carousel-caption text-end">
-            <h1>Example headline.</h1>
-            <p className="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+            <h1 className='carousel-heading'>YOUR DREAM HOUSE IS ONE STEP AWAY FROM YOU</h1>
+            <p className="opacity-75 carousel-paragraph">WE CONSTRUCT A BETTER TOMORROW FOR YOUR GENERATIONS FUTURE</p>
             
           </div>
         </div>
       </div>
 
       <div className="carousel-item">
-      <img src='./image/c2.jpg' className="d-block img-fluid mx-auto opacity-75" alt="..."/>
+      <img src='./image/c2.jpg' className="d-block img-fluid mx-auto " alt="..."/>
         <div className="container">
           <div className="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <h1 className='carousel-heading'>WE BUILD YOUR FUTURE</h1>
+            <p className=' carousel-paragraph'>WE CONSTRUCT MORE THAN BUILDINGS, WE BUILD HOPE</p>
             
           </div>
         </div>
       </div>
 
       <div className="carousel-item">
-      <img src='./image/c3.jpg' className="d-block img-fluid mx-auto opacity-75" alt="..."/>
+      <img src='./image/c3.jpg' className="d-block img-fluid mx-auto " alt="..."/>
         <div className="container">
-          <div className="carousel-caption ">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
+          <div className="carousel-caption text-end ">
+            <h1 className='carousel-heading'>QUALITY CONSTRUCTION, TIMELESS DEDICATION</h1>
+            <p className=' carousel-paragraph'>YOU WANT IT WE BUILD IT</p>
        
           </div>
         </div>

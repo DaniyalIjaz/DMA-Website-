@@ -3,7 +3,7 @@ import React from 'react'
 const Whatmakesusdifferent = () => {
   return (
     <>
-      <div className="px-2 text-center pb-3 border-bottom">
+      <div className="px-2 text-center pb-3 border-bottom container">
       
 
       
@@ -47,7 +47,7 @@ be reached 24-hours a day, 7days a week.
 
         </p>
       </div>
-    <div class="container border-bottom">
+    <div class="container pb-3">
         <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Timelines</h3>
         <p class="lead About-p">Realizing time is money; we understand the
 importance of having our projects completed on

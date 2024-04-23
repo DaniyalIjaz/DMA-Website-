@@ -1,3 +1,19 @@
-/* .carousel{
-    position: absolute;
-} */
+.carousel-heading{
+    font-size: 3vw;
+    
+  }
+  
+
+
+
+@media only screen and (max-width: 800px) {
+    
+    .carousel-heading{
+      font-size: 80%;
+      font-weight: 900;
+    }
+    
+    .carousel-paragraph{
+        font-size: 50%;
+    }
+  }
