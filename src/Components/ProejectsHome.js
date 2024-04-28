@@ -19,9 +19,9 @@ const ProejectsHome = () => {
     <div class="carousel-item">
       <img src="./image/Projects/p3.jpg" class="d-block w-100" alt="Project"/>
     </div>
-    <div class="carousel-item">
+    {/* <div class="carousel-item">
       <img src="./image/Projects/p6.jpg" class="d-block w-100" alt="Project"/>
-    </div>
+    </div> */}
     <div class="carousel-item">
       <img src="./image/Projects/p4.jpg" class="d-block w-100" alt="Project"/>
     </div>

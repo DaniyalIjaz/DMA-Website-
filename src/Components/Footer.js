@@ -13,7 +13,7 @@ const Footer = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est hic commodi quis ipsa, aperiam possimus?</p>
       </div> */}
 
-      <div className="footer-col">
+      <div className="footer-col pb-2">
      
        
         <div className='foot-h2-body'>
@@ -37,7 +37,7 @@ designmanassociates@gmail.com</h6>
       </div>
       
 
-      <div className="footer-col">
+      <div className="footer-col pb-4">
 
       <div className='foot-h2-body'>
   <h2 data-text='Links'>Links</h2>

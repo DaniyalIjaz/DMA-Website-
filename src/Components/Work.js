@@ -20,25 +20,7 @@ const Work = () => {
 
 </div>
 
-{/* <!-- The Modal --> */}
-<div className="modal fade" id="myModal">
-  <div className="modal-dialog">
-    <div className="modal-content">
 
-      {/* <!-- Modal Header --> */}
-      <div className="modal-header">
-        <h4 className="modal-title">Bootstrap Part 1</h4>
-        <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      {/* <!-- Modal body --> */}
-      <div className="modal-body">
-<p className="text-start">Full Stack Web Development Course</p>
-<iframe width="470" height="320" src="https://www.youtube.com/embed/ppeaGTE7fs4?si=EuVox-p1y0Il0GXH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
 
     </section>
     </div>

@@ -9,11 +9,12 @@
 @media only screen and (max-width: 800px) {
     
     .carousel-heading{
-      font-size: 80%;
+      
+      font-size: 60%;
       font-weight: 900;
     }
     
     .carousel-paragraph{
-        font-size: 50%;
+        font-size: 40%;
     }
   }

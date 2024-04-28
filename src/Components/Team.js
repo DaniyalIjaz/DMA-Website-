@@ -46,7 +46,7 @@ const Team = () => {
         <img className="rounded-circle img-fluid " src="./image/Team/Umair.jpeg" alt="Team Member" />
         <h4 className="fw-bold pt-3">M. Umair</h4>
         <h6 className="fw-bold display-7">Planning Engineer</h6>
-        <h6 className=" display-7">B.sc. Engg. (Civil)</h6>
+        <h6 className=" display-7">M.sc. Engg. (Civil)</h6>
       </div>
 
       <div className="memb col-lg-4 py-3">

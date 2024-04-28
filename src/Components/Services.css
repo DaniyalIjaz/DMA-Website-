@@ -11,7 +11,7 @@
 
 }
 .serv-h2-body{
-    padding-top: 80px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@
     }
 }
 .wrapper{
-    padding: 10px 10%;
+    padding: 0px 10%;
 }
 .card-area{
     padding-bottom: 50px;
