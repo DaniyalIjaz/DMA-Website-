@@ -23,7 +23,7 @@ const CEOmessage = () => {
 <p className='lead CEO-para fw-bold'> Fahad Ijaz </p>
 <p className='lead CEO-para fw-medium pb-4'> CEO, Design Man Associates</p>
       </div>
-      <div class="col-md-5 pb-4">
+      <div className="col-md-5 pb-4">
         <img src="./image/CEO.jpeg" className='img-fluid rounded' alt="" />
       </div>
     </div>

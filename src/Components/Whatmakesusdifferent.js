@@ -11,9 +11,9 @@ const Whatmakesusdifferent = () => {
       <h2 className="display-6  fw-bold  data-text='Engineering' Archi-h pt-4 text-danger">WHAT MAKE US DIFFERENT
 </h2>
     </div>
-    <div class="container">
-        <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h pt-4">Customer Service</h3>
-        <p class="lead About-p">When we founded the company we were determined
+    <div className="container">
+        <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h pt-4">Customer Service</h3>
+        <p className="lead About-p">When we founded the company we were determined
 to reintroduce honesty and honor into the
 commercial construction industry. Later, these core
 values are more important than ever. Whether we're
@@ -27,9 +27,9 @@ come.
       </div>
 
 
-    <div class="container">
-        <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Quality</h3>
-        <p class="lead About-p">At DMA, we believe that quality is the result
+    <div className="container">
+        <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Quality</h3>
+        <p className="lead About-p">At DMA, we believe that quality is the result
 of careful planning and execution. By prequalifying
 and continually evaluating the work of our,
 employee, vendors and subcontractors, we ensure
@@ -37,9 +37,9 @@ exceptional quality of our work and services.
 
         </p>
       </div>
-    <div class="container">
-        <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Communication</h3>
-        <p class="lead About-p">By employing the latest proven office technology,
+    <div className="container">
+        <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Communication</h3>
+        <p className="lead About-p">By employing the latest proven office technology,
 combined with M/s DMA workflow methods and
 state-of-the-art communication tools, M/s
 DMA is never out of reach. Our staff of experts can
@@ -47,9 +47,9 @@ be reached 24-hours a day, 7days a week.
 
         </p>
       </div>
-    <div class="container pb-3">
-        <h3 class="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Timelines</h3>
-        <p class="lead About-p">Realizing time is money; we understand the
+    <div className="container pb-3">
+        <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Timelines</h3>
+        <p className="lead About-p">Realizing time is money; we understand the
 importance of having our projects completed on
 time. By investing in state-of the-art communication
 and scheduling tools, we continually monitor and
