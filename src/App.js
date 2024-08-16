@@ -20,22 +20,10 @@ import ClientsNavbar from './Components/ClientsNavbar';
 import Projects from './Components/Projects';
 import Downloads from './Downloads';
 import ScrollToTop from './ScrollToTop';
-
-
-
 function App() {
 
-
-
-  // const { pathname } = useLocation();
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, [pathname]);
   return (
-
     <>
-
       <BrowserRouter>
       <ScrollToTop/>
       <Routes>
