@@ -4,19 +4,26 @@
     font-family: "DM Sans", sans-serif;
     /* scroll-behavior: smooth; */
 }
+.Navbar-main{
+    position: fixed;
+    z-index: 5;
+    width: 100vw;
+    /* height: 100%; */
+}
 .full-navbar{
     box-sizing: border-box;
     font-size: small;
     font-weight: 600;
     --color1: #000000 ;
     --color2: #ffffff ;
+
 }
 
 .nav-bar {
     width: 100%;
     display: flex;
     /* justify-content: space-between; */
-    padding-top: 15px;
+    padding: 15px 0;
     align-items: center;
     list-style: none;
     position: relative;

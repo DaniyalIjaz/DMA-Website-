@@ -7,6 +7,7 @@ import CEOmessage from "./CEOmessage";
 import OurMission from "./OurMission";
 import Whatmakesusdifferent from "./Whatmakesusdifferent";
 import ProejectsHome from "./ProejectsHome";
+import ScrollOnTopButton from "./ScrollOnTopButton";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Clients/>
       <Work/>
       <Whatmakesusdifferent/>
+      <ScrollOnTopButton/>
       <Footer/>
       
       

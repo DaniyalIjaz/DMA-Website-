@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom'
 const Navbar = () =>{
 
     return(
-    <>
+    <div className='Navbar-main'>
     
         <header className='full-navbar'>
         <nav>
@@ -65,7 +65,7 @@ const Navbar = () =>{
           </div>
         </div>
       </div>
-      </>
+      </div>
     )
 
 }
