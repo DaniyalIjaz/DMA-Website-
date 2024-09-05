@@ -8,14 +8,14 @@ import {NavLink} from 'react-router-dom'
 const Navbar = () =>{
 
     return(
-    <div className='Navbar-main'>
+    <>
     
         <header className='full-navbar'>
         <nav>
             <ul className='nav-bar'>
                 <li className='logo'><NavLink to='/'><img src='./image/logo1.png'/></NavLink></li>
                 <input type='checkbox' id='check' />
-                <span className="menu">
+                <span className="menu"> 
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
@@ -65,7 +65,7 @@ const Navbar = () =>{
           </div>
         </div>
       </div>
-      </div>
+      </>
     )
 
 }

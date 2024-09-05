@@ -7,7 +7,7 @@ const ProejectsHome = () => {
     <div className='serv-main'>
   <div className='serv-body'>
     <div className='pro-h2-body'>
-  <h2 data-text='OUR PROJECTS'>OUR PROJECTS</h2>
+  <h2 data-text='OUR&nbsp;PROJECTS'>OUR PROJECTS</h2>
     </div>
 
 

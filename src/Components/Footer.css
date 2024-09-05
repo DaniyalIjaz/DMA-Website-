@@ -8,11 +8,10 @@ footer{
     /* position: absolute; */
     
     bottom: 0;
-    background: linear-gradient(to right,  #000000, #434343);
+    background: linear-gradient(to right,  #000000, #686868);
     color: rgb(194, 194, 194);
     padding-top: 4vw;
     padding-bottom: 1vw;
-    border-top-left-radius: 95px;
     font-size: 11px;
     /* line-height: 20px; */
 }
@@ -26,7 +25,7 @@ footer{
 }
 .footer-col{
     flex-basis: 25%;
-    color: rgb(122, 122, 122);
+    color: rgb(198, 198, 198);
     font-weight: 400;
     /* padding: 10px; */
 
@@ -96,7 +95,7 @@ margin-left: 5%;
 }
 .copywrite{
     text-align:center;
-    color: rgb(122, 122, 122);
+    /* color: rgb(122, 122, 122); */
 }
 /* .underline{
     width: 100%;
@@ -108,28 +107,30 @@ margin-left: 5%;
 } */
 .footer-p{
     font-size: 100%;
+    font-weight: 600;
+    width: 23vw;
     color: #000000;
 }
 @media (max-width: 700px){
     footer{
         bottom: unset;
+        background: linear-gradient(to bottom,  #000000, #686868);
 
     }
     .footer-col{
         flex-basis: 100%;
+        /* display: flex; */
+        justify-content: start;
+        align-items: start;
         
         
     
     }
     .footer-col p{
-        color: rgb(122, 122, 122);
+        color: rgb(0, 0, 0);
     }
     .footer-logo{
-        width: 50px;
-        
-        
-        
-       
+        width: 50px;   
     
     }
     .footer-col:nth-child(2), .footer-col:nth-child(3){
@@ -137,15 +138,19 @@ margin-left: 5%;
     }
     .copywrite{
         text-align:center;
-        font-size: 65%;
+        font-size: 80%;
+        /* font-weight: 500; */
     }
     .footer-logo{
         width: 30%;
         
     }
     .footer-p{
-        font-size: 70%;
-        color: whitesmoke;
+        font-size: 90%;
+        width: 64vw;
+        padding-left: 13%;
+        font-weight: 700;
+        /* color: whitesmoke; */
     }
     .footer-col{
         text-align: center;
@@ -154,7 +159,7 @@ margin-left: 5%;
         text-align: center;
     }
     .foot-h2-body{
-        margin-left: 38%;
+        margin-left: 44.5%;
         padding-top: 6vw;
         
     }
@@ -163,7 +168,8 @@ margin-left: 5%;
         height: 12vh;
     }
     .footer-p{
-        padding-bottom: 4%;
+        padding-bottom: 1%;
+
     }
 }
 

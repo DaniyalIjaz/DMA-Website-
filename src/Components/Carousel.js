@@ -9,7 +9,7 @@ const Carousel = () => {
 <div id="carouselExampleFade" className="carousel slide carousel-fade">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./image/c1.jpg" className="d-block w-100" alt="..."/>
+      <img  src="./image/c1.jpg" className="d-block w-100 "  alt="..."/>
       <div className="container">
     <div className="carousel-caption text-end">
     <h1 className='carousel-heading'>YOUR DREAM HOUSE IS ONE STEP AWAY FROM YOU</h1>
