@@ -20,25 +20,30 @@ import ClientsNavbar from './Components/ClientsNavbar';
 import Projects from './Components/Projects';
 import Downloads from './Downloads';
 import ScrollToTop from './ScrollToTop';
+import ScrollOnTopButton from './Components/ScrollOnTopButton';
+import FeaturedProject1 from './Components/FeaturedProject1';
 function App() {
 
   return (
     <>
       <BrowserRouter>
       <ScrollToTop/>
+      <ScrollOnTopButton/>
       <Routes>
         <Route path="/" element={<MainHeader/>}>
             <Route index element={<Home/> } />
             <Route path="/about" element={<About/>} />
-            <Route path="/Team" element={<Team/>} />
-            <Route path="/Downloads" element={<Downloads/>} />
+            <Route path="/team" element={<Team/>} />
+            <Route path="/downloads" element={<Downloads/>} />
            
-            <Route path="/Projects" element={<Projects/>} />
-            <Route path="/ClientsNavbar" element={<ClientsNavbar/>} />
-            <Route path="/Architecture" element={<Architecture/>} />
-            <Route path="/Engineering" element={<Engineering/>} />
-            <Route path="/Construction" element={<Construction/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/our-clientele" element={<ClientsNavbar/>} />
+            <Route path="/architecture" element={<Architecture/>} />
+            <Route path="/engineering" element={<Engineering/>} />
+            <Route path="/construction" element={<Construction/>} />
             <Route path="*" element={<Error/>} />
+            {/* Projects section routes  */}
+            <Route path="/projects/featured-project-1" element={<FeaturedProject1/>} />
         </Route>
       </Routes>
     </BrowserRouter>

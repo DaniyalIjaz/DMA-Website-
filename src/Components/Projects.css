@@ -1,48 +1,89 @@
-.error-body{
-    margin: 0;
-    padding: 0;
-    font-family: "montserrat",sans-serif;
-    min-height: 100vh;
-    background-image: linear-gradient(125deg,whitesmoke, #434343);
-  }
+.project-main{
+  background-color: rgb(30,31,33);
+}
+.slider-container{
+  padding: 20px;
   
-  .error-container{
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+}
+.slider-container img{
+  width: 27vw;
+}
+
+/* featured proj  */
+
+.featured-proj-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 23px;
+  gap: 30px;
+}
+.featured-proj-img img{
+  width: 27vw;
+
+}
+/* img hover  */
+.featured-proj-img img:hover{
+  
+
+}
+.featured-proj-img h4{
+  color: white;
+  margin: 15px 0;
+
+}
+.overlay h5{
+  color: white;
+}
+
+/* All Projects  */
+/* .main-allProjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-wrap: nowrap;
+  
+} */
+
+.allProjectsHeadings{
+  color: white;
+  /* margin: 40px 9%; */
+  margin-right: 10px;
+  /* border-bottom: 1px solid white; */
+  width: 30vw;
+  text-wrap: nowrap;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+
+
+/* Media Queries  */
+@media(max-width: 830px){
+  .featured-proj-img{
+    flex-direction: column;
+    align-items: center;
+  }
+  .featured-proj-img img{
+    width: 80vw;
+  }
+  .featured-proj-img h4{
+    font-size: 18px;
+  }
+  .main-allProjects{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 50px;
+    width: 90vw;
+    text-wrap: nowrap;
+    gap: 40px;
+  }
+  .allProjectsHeadings{
+    font-size: 18px;
+    font-weight: 300;
     text-align: center;
-    color: #343434
-    
-    
   }
-  
-  .error-container h1{
-    font-size: 160px;
-    margin: 0;
-    font-weight: 900;
-    letter-spacing: 20px;
-    background: url(/public/image/error-bg.jpg) center no-repeat;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-  }
-  
-  .error-container a{
-    text-decoration: none;
-    background: whitesmoke;
-    color: #1e1f21;
-    padding: 12px 24px;
-    display: inline-block;
-    border-radius: 25px;
-    font-size: 14px;
-    text-transform: uppercase;
-    transition: 0.4s;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .error-container a:hover{
-    background: #1e1f21;
-    color: whitesmoke
-    ;
-  }
-  
+}

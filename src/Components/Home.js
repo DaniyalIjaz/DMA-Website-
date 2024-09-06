@@ -26,7 +26,6 @@ export default function Home() {
       <Clients/>
       <Work/>
       <Whatmakesusdifferent/>
-      <ScrollOnTopButton/>
       <Footer/>
       
       

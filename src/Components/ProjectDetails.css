@@ -1,0 +1,13 @@
+.proDetails{
+    color: white;
+    width: 20vw;
+    border-left: 1px solid white;
+    padding: 40px 40px;
+    margin-top: 40px ;
+    margin-left: 90px;
+    width: 90vw;
+    
+}
+.proDetails p{
+    opacity: 70%;
+}

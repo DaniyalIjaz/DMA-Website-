@@ -27,7 +27,7 @@ const Services = () => {
               <p>Our architects turn the visions into stunning structures.</p>
               
                 
-                <NavLink to="/Architecture">More Info</NavLink>
+                <NavLink to="/architecture">More Info</NavLink>
              
             </div>
           </div>
@@ -41,7 +41,7 @@ const Services = () => {
             <div className="overlay">
             <h3>ENGINEERING</h3>
               <p>Structural engineering is an area of specialization of Design Man Associates.</p>
-              <NavLink to="/Engineering">More Info</NavLink>
+              <NavLink to="/engineering">More Info</NavLink>
             </div>
           </div>
           </div>
@@ -54,7 +54,7 @@ const Services = () => {
             <div className="overlay">
             <h3>CONSTRUCTION</h3>
               <p>Design Man Associates offers both construction and construction management services.</p>
-              <NavLink to="/Construction">More Info</NavLink>
+              <NavLink to="/construction">More Info</NavLink>
             </div>
           </div>
           </div>

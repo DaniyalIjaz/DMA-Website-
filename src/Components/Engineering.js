@@ -27,7 +27,7 @@ const Engineering = () => {
     <div class="row flex-lg-row-reverse align-items-center g-5 ">
       
       <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/Architecturaldesign.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/SE.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       </div>
 
       <div class="col-lg-6">
@@ -136,7 +136,7 @@ const Engineering = () => {
     <div class="row flex-lg-row-reverse align-items-center g-5 py-2">
       
       <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/Interiordesign.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/MEP.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       </div>
 
       <div class="col-lg-6">
@@ -445,7 +445,7 @@ Building & Energy Management and Control System Design.
     <div class="row flex-lg-row-reverse align-items-center g-5 py-1">
       
       <div class="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/Planning.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/SoilT.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
 
 
       </div>

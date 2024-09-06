@@ -2,3 +2,10 @@
     background-color: rgb(44, 44, 44);
 
 }
+
+
+@media(max-width: 830px){
+    .mission-h{
+        font-size: 13px;
+    }
+}

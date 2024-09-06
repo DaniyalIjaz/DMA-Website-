@@ -20,7 +20,7 @@ const Navbar = () =>{
                     <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
                     <li><NavLink to="/team">Team</NavLink></li>
-                    <li><NavLink to="/clientsnavbar">Our Clientele</NavLink></li>
+                    <li><NavLink to="/our-clientele">Our Clientele</NavLink></li>
                     {/* <li><a href="/">Career</a></li> */}
                     <li><a href="/" data-bs-toggle="modal" data-bs-target="#myModal">Contact Us</a></li>
 
