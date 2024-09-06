@@ -535,8 +535,8 @@ export default function Projects() {
       
     <div className="d-grid gap-2 d-sm-flex justify-content-sm-center pb-5 about-btn">
       <NavLink to="/">Go back home</NavLink>
-        
       </div>
+      
     </div>
   <Footer/>
     </>

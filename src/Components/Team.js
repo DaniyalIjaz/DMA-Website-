@@ -110,8 +110,12 @@ const Team = () => {
       
 
     </div>
-
     </section>
+
+    <div className="d-grid gap-2 d-sm-flex justify-content-sm-center pb-5 pt-3 about-btn" >
+      <NavLink to="/">Go back home</NavLink>
+      </div>
+
 
 
           <Footer/>

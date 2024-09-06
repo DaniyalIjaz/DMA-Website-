@@ -1,28 +1,29 @@
 import React from 'react'
 import './ClientsNavbar.css'
 import Footer from './Footer'
+import { NavLink } from 'react-router-dom'
 
 const ClientsNavbar = () => {
   return (
     <div>
-      <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-    <div className="col-lg-6 px-0">
+      <div className="p-4 p-md-5 rounded text-body-emphasis bg-body-secondary" >
+    <div className="col-lg-6 px-0" >
       <h1 className="display-4 fst-italic">Valued Clientele</h1>
-      <p className="lead my-3">We believe in building more than just structures; we build lasting relationships with each and every one of our clients.</p>
+      <p className="lead py-3">We believe in building more than just structures; we build lasting relationships with each and every one of our clients.</p>
       
     </div>
       
     {/* images */}
-    <div className="ClientsNavbarImages album py-5 bg-body-tertiary">
+    <div className="ClientsNavbarImages album bg-body-secondary" >
 
-    <div className="container">
+    <div className="container" style={{background:'#e9ecef'}}>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 rounded">
-        <div className="col">
-          <div className="card shadow-sm ">
+        <div className="col" >
+          <div className="card shadow-sm " >
             <img src="./image/Clientslogo/1.jpg" alt="" />
            
-            <div className="card-body ">
+            <div className="card-body " >
               <p className="card-text">AK Enterprises</p>
               <div className="">
                 
@@ -469,10 +470,15 @@ const ClientsNavbar = () => {
         
       </div>
     </div>
-  </div>
 
 
   </div>
+  </div>
+  
+  <div className="d-grid gap-2 d-sm-flex justify-content-sm-center pb-5 about-btn" style={{background:'#e9ecef'}}>
+      <NavLink to="/">Go back home</NavLink>
+      </div>
+      
     <Footer/>
     </div>
   )
