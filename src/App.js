@@ -22,6 +22,10 @@ import Downloads from './Downloads';
 import ScrollToTop from './ScrollToTop';
 import ScrollOnTopButton from './Components/ScrollOnTopButton';
 import FeaturedProject1 from './Components/FeaturedProject1';
+import WhatsAppButton from './Components/WhatsAppButton';
+import FeaturedProject2 from './Components/FeaturedProjects2';
+import FeaturedProject3 from './Components/FeaturedProjects3';
+
 function App() {
 
   return (
@@ -29,6 +33,7 @@ function App() {
       <BrowserRouter>
       <ScrollToTop/>
       <ScrollOnTopButton/>
+      <WhatsAppButton/>
       <Routes>
         <Route path="/" element={<MainHeader/>}>
             <Route index element={<Home/> } />
@@ -44,6 +49,8 @@ function App() {
             <Route path="*" element={<Error/>} />
             {/* Projects section routes  */}
             <Route path="/projects/featured-project-1" element={<FeaturedProject1/>} />
+            <Route path="/projects/featured-project-2" element={<FeaturedProject2/>} />
+            <Route path="/projects/featured-project-3" element={<FeaturedProject3/>} />
         </Route>
       </Routes>
     </BrowserRouter>

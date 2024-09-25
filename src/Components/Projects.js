@@ -8,53 +8,54 @@ import Slider from "react-slick";
 import { NavLink } from 'react-router-dom';
 import ProjectDetails from './ProjectDetails';
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "" }}
-      onClick={onClick}
-    />
-  );
-}
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block", background: "" }}
-      onClick={onClick}
-    />
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
+
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "block", background: "" }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
 
 
 export default function Projects() {
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   slidesToScroll: 1,
+  //   nextArrow: <SampleNextArrow />,
+  //   prevArrow: <SamplePrevArrow />
+  // };
   return (
     <>
     <div className="project-main">
 
       {/* heading signature projects */}
-        <div className="serv-body pt-5">
+        {/* <div className="serv-body pt-5">
             <div className='serv-h2-body'>
               <h2 data-text='SIGNATURE&nbsp;PROJECTS'>SIGNATURE PROJECTS</h2>
             </div>
             <p className='text-p container p-1 px-5 '>The Signature Projects selected here demonstrate the diversity of the projects Astral performs. No project is complex for us in the engineering, time or price domains. This is possible thanks to our strong emphasis on people and processes; our dominant critical success factors.</p>
-        </div>
+        </div> */}
 
       {/* React slick carousel  */}
-      <div className="react-slick-carousel container">
+      {/* <div className="react-slick-carousel container">
 
       <div className="slider-container ">
       <Slider {...settings}>
@@ -79,14 +80,14 @@ export default function Projects() {
       </Slider>
     </div>
 
-    </div>
+    </div> */}
 
       {/* heading featured projects */}
       <div className="serv-body pt-5">
             <div className='serv-h2-body'>
               <h2 data-text='FEATURED&nbsp;PROJECTS'>FEATURED PROJECTS</h2>
             </div>
-            <p className='text-p container p-1 px-5 '>The Featured Projects highlighted here exemplify the wide range of initiatives Astral undertakes. No endeavor is too challenging for us in terms of engineering complexity, scheduling, or budget considerations. This success is achieved through our steadfast commitment to our people and processes, which remain our primary critical success factors.</p>
+            <p className='text-p container p-1 px-5 text-center' style={{fontSize:'18px'}}>The Featured Projects highlighted here exemplify the wide range of initiatives Astral undertakes. No endeavor is too challenging for us in terms of engineering complexity, scheduling, or budget considerations. This success is achieved through our steadfast commitment to our people and processes, which remain our primary critical success factors.</p>
         </div>
 
       {/* images  */}
@@ -94,10 +95,10 @@ export default function Projects() {
         {/* first img  */}
 
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p1/7.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
+                      <h5>Omar Medical Tower</h5>  
                         <NavLink to="/projects/featured-project-1">More Info</NavLink>
                 </div>
 
@@ -105,22 +106,22 @@ export default function Projects() {
 
         {/* 2nd img  */}
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p2/1.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
-                        <NavLink to="/Architecture">More Info</NavLink>
+                      <h5>AL-Qaim Industry</h5>  
+                        <NavLink to="/projects/featured-project-2">More Info</NavLink>
                 </div>
 
         </div>
 
         {/* 3rd  */}
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p3/1.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
-                        <NavLink to="/Architecture">More Info</NavLink>
+                      <h5>Industrial Godown Building</h5>  
+                        <NavLink to="/projects/featured-project-3">More Info</NavLink>
                 </div>
 
         </div>
@@ -165,6 +166,8 @@ export default function Projects() {
 
       </div>
 
+      {/* <WaterPressureCalculator/> */}
+
       {/* All Projects  */}
     <div className="allProjects">
 
@@ -173,7 +176,7 @@ export default function Projects() {
               <h2 data-text='All&nbsp;PROJECTS'>ALL PROJECTS</h2>
             </div>
         {/* Commercial Projects  */}
-    <p className='text-p container p-1 px-5 '><span className='allProjectsHeadings'>COMMERCIAL PROJECTS </span> highlighted here demonstrate Astral's capability to tackle a wide range of challenges. Complexity in engineering, scheduling, or cost is never an issue for us. Consistently, we deliver success through our commitment to innovation, collaboration, and streamlined processes, which form the backbone of our achievements.</p>
+    <p className='text-p container p-1 px-5 ' style={{fontSize:'18px'}}   ><span className='allProjectsHeadings'>COMMERCIAL PROJECTS </span> highlighted here demonstrate Astral's capability to tackle a wide range of challenges. Complexity in engineering, scheduling, or cost is never an issue for us. Consistently, we deliver success through our commitment to innovation, collaboration, and streamlined processes, which form the backbone of our achievements.</p>
         </div>
 
     </div>
@@ -340,7 +343,7 @@ export default function Projects() {
         </div>
 
         {/* Residential projects  */}
-        <p className='text-p container p-1 px-5 text-white'><span className='allProjectsHeadings'>RESIDENTIAL PROJECTS </span> showcased here represent Astral's expertise in handling diverse challenges. Regardless of the complexity in engineering, timelines, or budgets, we excel. Our success is consistently driven by our focus on innovation, collaboration, and efficient processes, which are integral to delivering outstanding results.</p>
+        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RESIDENTIAL PROJECTS </span> showcased here represent Astral's expertise in handling diverse challenges. Regardless of the complexity in engineering, timelines, or budgets, we excel. Our success is consistently driven by our focus on innovation, collaboration, and efficient processes, which are integral to delivering outstanding results.</p>
 
 
         <div className="container p-5">
@@ -454,7 +457,7 @@ export default function Projects() {
         </div>
 
         {/* Relegious projects  */}
-        <p className='text-p container p-1 px-5 text-white'><span className='allProjectsHeadings'>RELIGIOUS PROJECTS </span>featured here reflect Astral's expertise in overcoming diverse challenges. Whether dealing with intricate engineering, tight schedules, or budget constraints, we consistently achieve success. This is made possible through our dedication to thoughtful planning, teamwork, and streamlined processes.</p>
+        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RELIGIOUS PROJECTS </span>featured here reflect Astral's expertise in overcoming diverse challenges. Whether dealing with intricate engineering, tight schedules, or budget constraints, we consistently achieve success. This is made possible through our dedication to thoughtful planning, teamwork, and streamlined processes.</p>
 
         <div className="container p-5">
                      
@@ -493,7 +496,7 @@ export default function Projects() {
 
 
         {/* Overseas projects  */}
-        <p className='text-p container p-1 px-5 text-white'><span className='allProjectsHeadings'>OVERSEAS PROJECTS </span>showcased here demonstrate Astral's ability to navigate complex challenges across international borders. Whether it's engineering intricacies, timelines, or budget considerations, we deliver with precision. Our global success is driven by a strong focus on innovation, cross-cultural collaboration, and efficient project management processes.</p>
+        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>OVERSEAS PROJECTS </span>showcased here demonstrate Astral's ability to navigate complex challenges across international borders. Whether it's engineering intricacies, timelines, or budget considerations, we deliver with precision. Our global success is driven by a strong focus on innovation, cross-cultural collaboration, and efficient project management processes.</p>
 
         <div className="container p-5">
                      
@@ -538,6 +541,7 @@ export default function Projects() {
       </div>
       
     </div>
+
   <Footer/>
     </>
   )

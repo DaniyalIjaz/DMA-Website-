@@ -14,13 +14,13 @@ const About = () => {
     <>
     
     
-    <div className=" pt-5 my-5 text-center">
-    <h1 className="display-4 mb-4 fw-bold text-body-emphasis">Design Main Associates</h1>
-    <div className="col-lg-8 mx-auto pb-4">
-      <p className="About-p lead mb-3">Design Man Associates is lead, run and managed by a team of experienced professionals from various specialized disciplines.</p>
-      <p className="About-p lead mb-3">Design Man Associates is committed to rendering state-of-the-art consultancy services in the fields of architecture, engineering, construction and allied disciplines.
+    <div className=" pt-5 my-5 ">
+    <h1 className="display-4 mb-4 fw-bold text-body-emphasis text-center">Design Man Associates</h1>
+    <div className="col-lg-8 mx-auto text-center pb-4">
+      <p className="About-p lead mb-3" style={{fontSize:'16px'}}>Design Man Associates is lead, run and managed by a team of experienced professionals from various specialized disciplines.</p>
+      <p className="About-p lead mb-3" style={{fontSize:'16px'}}>Design Man Associates is committed to rendering state-of-the-art consultancy services in the fields of architecture, engineering, construction and allied disciplines.
 </p>
-      <p className="About-p lead mb-4">Operating in a professional environment and organized on modern lines, the company is committed to providing high quality services employing current state of knowledge and contemporary practices.</p>
+      <p className="About-p lead mb-4" style={{fontSize:'16px'}}>Operating in a professional environment and organized on modern lines, the company is committed to providing high quality services employing current state of knowledge and contemporary practices.</p>
       
       
     </div>

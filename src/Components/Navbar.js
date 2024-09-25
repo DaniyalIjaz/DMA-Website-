@@ -2,14 +2,9 @@ import React from 'react'
 import './Navbar.css'
 import {NavLink} from 'react-router-dom'
 
-
-
-
 const Navbar = () =>{
-
     return(
-    <>
-    
+    <>   
         <header className='full-navbar'>
         <nav>
             <ul className='nav-bar'>

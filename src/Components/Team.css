@@ -1,4 +1,7 @@
 .memb img{
-    height: 30vh;
+    height: 200px;
+    width: 200px;
+    
+    /* border-radius: 50%; */
     
 }

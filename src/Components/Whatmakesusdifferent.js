@@ -13,7 +13,7 @@ const Whatmakesusdifferent = () => {
     </div>
     <div className="container">
         <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h pt-4">Customer Service</h3>
-        <p className="lead About-p">When we founded the company we were determined
+        <p className="lead About-p" style={{fontSize:'16px'}}>When we founded the company we were determined
 to reintroduce honesty and honor into the
 commercial construction industry. Later, these core
 values are more important than ever. Whether we're
@@ -29,7 +29,7 @@ come.
 
     <div className="container">
         <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Quality</h3>
-        <p className="lead About-p">At DMA, we believe that quality is the result
+        <p className="lead About-p" style={{fontSize:'16px'}}>At DMA, we believe that quality is the result
 of careful planning and execution. By prequalifying
 and continually evaluating the work of our,
 employee, vendors and subcontractors, we ensure
@@ -39,7 +39,7 @@ exceptional quality of our work and services.
       </div>
     <div className="container">
         <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Communication</h3>
-        <p className="lead About-p">By employing the latest proven office technology,
+        <p className="lead About-p" style={{fontSize:'16px'}}>By employing the latest proven office technology,
 combined with M/s DMA workflow methods and
 state-of-the-art communication tools, M/s
 DMA is never out of reach. Our staff of experts can
@@ -49,7 +49,7 @@ be reached 24-hours a day, 7days a week.
       </div>
     <div className="container pb-3">
         <h3 className="display-7 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Timelines</h3>
-        <p className="lead About-p">Realizing time is money; we understand the
+        <p className="lead About-p" style={{fontSize:'16px'}}>Realizing time is money; we understand the
 importance of having our projects completed on
 time. By investing in state-of the-art communication
 and scheduling tools, we continually monitor and

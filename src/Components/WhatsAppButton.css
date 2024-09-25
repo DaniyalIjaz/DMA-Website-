@@ -1,0 +1,58 @@
+
+.WhatsappBtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 51px;
+    height: 51px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: #00d757;
+    
+
+    position: fixed;
+    bottom: 16.5px;
+    right: 80px;
+    z-index: 5;
+  }
+  
+  .Whatsappsign {
+    width: 100%;
+    transition-duration: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Whatsappsign svg {
+    width: 25px;
+  }
+  
+  .Whatsappsign svg path {
+    fill: white;
+  }
+  .Whatsapptext {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+     transition: transform 0.3s ease-in-out;
+  }
+  
+  .WhatsappBtn:hover {
+
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+  }
+
+  .WhatsappBtn:active {
+    transform: translate(2px, 2px);
+  }
+  

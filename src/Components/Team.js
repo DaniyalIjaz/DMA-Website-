@@ -39,7 +39,7 @@ const Team = () => {
         <h4 className="fw-bold pt-3">Dr. G.M. Baloch</h4>
         <h6 className="fw-bold display-7">Principal Structural Engineer</h6>
         <h6 className=" display-7">Professional Engineer</h6>
-        <h6 className=" display-7">PhD (Structural Conservation)</h6>
+        <h6 className=" display-7">PHD (Structural Conservation)</h6>
       </div>
 
       <div className="memb col-lg-4 py-3">
@@ -105,10 +105,6 @@ const Team = () => {
         <h6 className=" display-7">BSCS</h6>
       </div>
 
-      
-
-      
-
     </div>
     </section>
 
@@ -116,14 +112,8 @@ const Team = () => {
       <NavLink to="/">Go back home</NavLink>
       </div>
 
-
-
           <Footer/>
 
-
-
-    
-      
     </>
   )
 }

@@ -1,14 +1,14 @@
-.Clients-body{
-   align-items: center;
-   justify-content: center;
-}
-@keyframes scroll{
+/* @keyframes scroll{
     0%{
         transform: translateX(0);
     }
     100%{
         transform: translateX(calc(-250px * 34));
     }
+}
+.Clients-body{
+   align-items: center;
+   justify-content: center;
 }
 .slider{
     height: 100px;
@@ -17,34 +17,67 @@
     position: relative;
     width: auto;
     
-
 }
 
-.slider .slide-track{
+
+.slider .slide-track {
     animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 68);
-}
+    will-change: transform; 
+
+  }
+
 .slider .slide{
     height: 100px;
     width: auto;
-
 }
 .slide img{
     height: 100%;
-    
-    
-    
+    width: auto;
 }
 
 .Clients-body h4{
-   
     padding-top: 3vw;
-    
-    
 }
 .clients-hr-space{
 color: white;    
 height: 2vw;
 
-}
+} */
+
+
+
+
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .slide-track {
+    display: flex;
+    width: calc(100% * 2); /* Twice the width of the slider for continuous scroll */
+    animation: scroll 40s linear infinite;
+  }
+  
+  .slideee {
+    flex: 0 0 auto;
+    width: 180px; /* Adjust to fit your image sizes */
+  }
+  
+  .slideee img {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -20,7 +20,7 @@ export default function Home() {
       <>
       <Carousel/>
       <Services/>
-      <ProejectsHome/>
+      {/* <ProejectsHome/> */}
       <CEOmessage/>
       <OurMission/>
       <Clients/>
