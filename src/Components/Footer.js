@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import { NavLink } from 'react-router-dom'
+import FooterLogo from '../assets/images/logo.png';
+
 
 const Footer = () => {
   return (
@@ -56,7 +58,7 @@ designmanassociates@gmail.com</h6>
   <h2 data-text='Design Man Associates'>Design Man Associates</h2>
     </div> */}
     <div className="footer-col">
-        <img src="./image/logo.png" alt="logo" className='footer-logo mx-auto d-block' />
+        <img src={FooterLogo} alt="logo" className='footer-logo mx-auto d-block ' style={{maxWidth:'16%'}} />
         <p className='text-center footer-p'>Architects | Civil, Structural & MEP Consultants | Contractors</p>
       </div>
         

@@ -194,8 +194,10 @@ export default function Projects() {
             <div className='serv-h2-body'>
               <h2 data-text='All&nbsp;PROJECTS'>ALL PROJECTS</h2>
             </div>
+
         {/* Commercial Projects  */}
-    <p className='text-p container p-1 px-5 ' style={{fontSize:'18px'}}   ><span className='allProjectsHeadings'>COMMERCIAL PROJECTS </span> highlighted here demonstrate Astral's capability to tackle a wide range of challenges. Complexity in engineering, scheduling, or cost is never an issue for us. Consistently, we deliver success through our commitment to innovation, collaboration, and streamlined processes, which form the backbone of our achievements.</p>
+
+    <p className='text-p container px-5 text-center mt-5 pt-5' style={{fontSize:'18px'}}   ><span className='allProjectsHeadings'>COMMERCIAL PROJECTS </span></p>
         </div>
 
     </div>
@@ -356,13 +358,67 @@ export default function Projects() {
                 Lahore.</td>
                 <td></td>
               </tr>
+              <tr>
+    <td>Structural design of proposed commercial building of Mr. Shah Nawaz at Oora Chowk, Kingra Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed commercial building of Mr. Raheel at Canal Bank Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of commercial building Salam Heights at Kamoki.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed commercial building for Mr. Abdul Wahid at Aziz Shaheed Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed commercial building for Mr. Tariq at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed extension of sitting steps at Wagah Stadium, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed building of Khidmat Center at Safari Garden, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed commercial building of Pehchaan Store Agha Kamal Haider Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed commercial building for Mr. Hassan Baryar at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed hotel building for Mian Jahanzeb at Aminanab Road, Jahangir Street, Rehman Pura, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed gate structure of Makkah City, Daska Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed gate structure of Kingdom Valley, Islamabad.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of steel marque shed for Meezan Marque owned by Rana Atif Aslam at Bughianna Kalan, Phool Nagar.</td>
+    <td></td>
+</tr>
+
 
             </tbody>
           </table>
         </div>
 
         {/* Residential projects  */}
-        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RESIDENTIAL PROJECTS </span> showcased here represent Astral's expertise in handling diverse challenges. Regardless of the complexity in engineering, timelines, or budgets, we excel. Our success is consistently driven by our focus on innovation, collaboration, and efficient processes, which are integral to delivering outstanding results.</p>
+
+        <p className='text-p container px-5 text-white text-center ' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RESIDENTIAL PROJECTS </span></p>
 
 
         <div className="container p-5">
@@ -470,13 +526,450 @@ export default function Projects() {
                 DHA, Lahore.</td>
                 <td></td>
               </tr>
+              <tr>
+    <td>Structural design of proposed residential unit of Mr. Rashid Mehmood at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit for Mr. Muhammad Shshzad at Village Nonar, Qilla Road, Zafarwal.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Ahmad at Sheikhupura.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Finish work BOQ of residential unit of Mr. Shakeel Iqbal Chatta at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Finish work BOQ of residential unit of Mirza Sab at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Ali Zaman at MB Villas, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of proposed residential unit for Mr. Waseem at Plot # 37-A, Phase 9, DHA, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Ibraheem Shshzad at Plot # 98, Block-S, Khayaban-e-Amin Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Azeem at Plot # 14-D, City Housing, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed rehabilitation and upgradation of residential unit of Mr. Bilal Sheikh at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed upgradation of residential unit at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit at Plot No. 27, Askari-2, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit at PCSIR Housing Society, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Hannan at Jallal Pur Jattan, Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. M. Usman Akbar, Plot No. 260 Block-C at Park Avenue, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Salahuddin at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed rehabilitation and upgradation of residential unit of Mr. Ubaid at Askari Cantt Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Ali Zaman at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit at Plot No. 176, Askari-1, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Sarfraz Aslam at Plot No. 264-C Park Avenue, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Hafiz Adil at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>BOQ of proposed residential unit of Mr. Faisal Butt at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed residential unit of Mr. Adeel Mumtaz at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>The structural design of rehabilitation and proposed upgradation of existing residential unit of Mr. Shafiq Malik at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of proposed residential unit of Mrs. Aroosha Wajid at Plot # 35, Sector-S, Phase-7, DHA, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of proposed residential unit of Mr. Sadiq Ali Raza at Plot # 1082, Orchards, Paragon City, Lahore.</td>
+    <td></td>
+</tr>
+
               
             </tbody>
           </table>
         </div>
+         {/* Industrial Projects  */}
+        
+         <p className='text-p container px-5 text-white text-center ' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>INDUSTRIAL PROJECTS</span></p>
+
+<div className="container p-5">
+             
+  <table className="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Architectural & Structural Design of Industrial Godown Building for “AN Traders” at Hadbast Mouza, Bhobattian, Raiwind Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Architectural & Structural Design of 6 Storied Factory Building for Multynet Electronics at Service Road, Zahra Peer, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Boiler Platform for “Chashma Sugar Mills Unit-II” at Dera Ismail Khan.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of P.E. Steel Shed for “Long Life Surgical Industries” at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for Mr. Haseeb at Circular Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for M. Saqib at Maher Faiz Colony, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Rehabilitation and Upgradation Factory Building for Medisporex Pvt. (Ltd.) at Gohadpur Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for “Requirements Group” at Sarwarabad, Kingra Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Truewin Factory Building for Mr. Khurram Shazad at Addalat Garh, Ugoki Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for "Elmed Instruments Unit-II" at Rodas Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for Mr. Javaid at New Bilal Ganj, Quaid-e-Azam Interchange, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for Mr. Adnan at New Bilal Ganj, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Office and Warehouse Building for Paris Distributors at Attari Industrial Estate, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building at Hi Chem at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for AMU Weavers at New Bilal Ganj, Quaid-e-Azam Interchange, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for IS Traders at Pasroor Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Unit for Mr. Jasim at Barki Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Extension of Factory Building of VizraMed Technik Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Vehicle Platform at M.E.L Raiwind Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of O.H.W. Tank at Millat Tractor Employees Cooperative Housing Society, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Factory Building of Faizan Gloves Maker at 1 KM Jammu Road, Dalowali, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for Fine Tech Pvt. (Ltd) owned by Mian Asif at Sambrial, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Abor Barrack at Chiniot Textile Mills, Bhai Pheru - Head Balloki Rd, Phool Nagar.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building for Farabi Sports of Mr. Nadir at Daska Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design for Mr. Khalid Malik at Kamran Park, Gulshan-e-Hayat, Bara Dari Road, Shadra, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Servant Quarters for Badouin Pvt. Ltd.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Rehabilitation & Extension of Factory Building of Pak Winz International at New Bilal Ganj, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Fabro International Pvt. Ltd. at Manawa, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building of Lakota Apparel at Village Ganjian Wali Kalan, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Building for Mr. Masom Abbas at Sheikhupura Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Vehicle Pad.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Pressure Vessel.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Godown Building for Haji Qasir at Chowk Pakpattan.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Stability Analysis for Existing Building of VizraMed Technik Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Factory Building of KPL at Phool Nagar, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Building for Al-Rehmat Motors at Kashmir Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Building for Mr. Sajjad Bhalli at Defence Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of first floor slab at factory building of Bioron Medics at Manga, Raiwind Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of second floor slab at factory building of Farooq Garment, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Extension of proposed store building at Zenith Chemical Pvt Ltd. at Dhondey, Raiwind, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building of Mr. Faiz at Wazirabad Road, Golo, Phala, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building of Mirza Empire at Alo Mahar Shareef, Daska Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building of Stamina Sports at Roras Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of boundary wall at proposed factory building land of AK Enterprises, New Bilal Ganj, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Rehabilitation measures for existing factory building of Texpak Pvt. Ltd. at Madar-e-Millat Road, Quaid-e-Azam Industrial Estate, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building for Mr. Asif at Mehar Faiz Colony, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of first floor of existing building of Sabri Industries at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed steel mid height flooring at Farooq Garment, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Site visit of existing factory building of Texpak Pvt. Ltd. Unit II at Nadir Chowk, Rohi Nala Road, Gajju Matah, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building of Mr. Shahid at Shafi Da Bhatta, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed factory building of Mr. Waheed Butt at Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed extension on factory building of House of Surgical at Daska Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed extension factory building of KMI Mechanical at GT Road, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed building of Al-Barkat Rice Mills at Sheikhupura Road, Mureedkay, Sheikhupura.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed building of TR-Gameday at Defence Road, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed level-1 slab of factory building at Lahore.</td>
+    <td></td>
+</tr>
+
+      
+    </tbody>
+  </table>
+</div>
+
+         {/* Healthcare Projects  */}
+        
+         <p className='text-p container px-5 text-white text-center ' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>HEALTH CARE PROJECTS</span></p>
+
+<div className="container p-5">
+             
+  <table className="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Analysis & Structural Design of Al-Fateh Foundation (Medical Trust) at Mian Khanqa Road Karyala, Hafizabad.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Hospital Building for Dr. Sohaib at Bhopal Wala, Sialkot.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Eye Hospital Building for Rana Javid Azeem at Plot No 289, Block-A, LDA Avenue, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Analysis & Structural Design of Hospital Building of Dr. Raja Naveed at Sulmeer Road, Jalalpur Jattan, Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Design of Proposed Rehabilitation and Upgradations of Existing Building for NRC Hospital at Renala Khurd Road, Okara.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Building for Clinic at Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Family Hospital at Karianwala District Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Eman Medical Tower at Hafizabad.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Building of Liaqat Memorial Hospital at Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Hospital Building of Hussain Eye & General Hospital Pattoki.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural Design of Proposed Building of Nursing College and Institute Allied Health Sciences at Rangers Headquarters, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Rehabilitation of Existing Hospital Building for Rehmat Hospital at Fawara Chowk, Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Hospital Building of Hussain Surgimed at Kunjah, Mangowal, Main Sargodah Road Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Construction of Proposed Hospital Building of Asma Wajahat Hospital at Lala Musa, Gujrat.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Up-Gradation of Existing Hospital Building of Capital Health Hospital Chakwal.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Proposed Plan of Life Care Medical Center at Chunia.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Up-Gradation of Existing Hospital Building of Life Care Hospital at Phalia, Mandi Bahauddin.</td>
+    <td></td>
+</tr>
+
+      
+    </tbody>
+  </table>
+</div>
 
         {/* Relegious projects  */}
-        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RELIGIOUS PROJECTS </span>featured here reflect Astral's expertise in overcoming diverse challenges. Whether dealing with intricate engineering, tight schedules, or budget constraints, we consistently achieve success. This is made possible through our dedication to thoughtful planning, teamwork, and streamlined processes.</p>
+
+        <p className='text-p container px-5 text-white text-center ' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>RELIGIOUS PROJECTS </span></p>
 
         <div className="container p-5">
                      
@@ -508,6 +1001,23 @@ export default function Projects() {
                 Cenal Road, Lahore.</td>
                 <td></td>
               </tr>
+              <tr>
+    <td>Construction of proposed Dawat-e-Islami Jamia Madrassa building at Shalimar Link Road, Golden Society, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed building of Jamia Masjid at New Bilal Ganj, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed Jamia Masjid Noorani, at Mian Mir Haq Bahu Chowk, Lahore.</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Structural design of proposed building of Jamia Masjid Ismail at Ghazipur, Talwaran Mughlan, Sialkot.</td>
+    <td></td>
+</tr>
+
               
             </tbody>
           </table>
@@ -515,7 +1025,8 @@ export default function Projects() {
 
 
         {/* Overseas projects  */}
-        <p className='text-p container p-1 px-5 text-white' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>OVERSEAS PROJECTS </span>showcased here demonstrate Astral's ability to navigate complex challenges across international borders. Whether it's engineering intricacies, timelines, or budget considerations, we deliver with precision. Our global success is driven by a strong focus on innovation, cross-cultural collaboration, and efficient project management processes.</p>
+
+        <p className='text-p container px-5 text-white text-center ' style={{fontSize:'18px'}}><span className='allProjectsHeadings'>OVERSEAS PROJECTS </span></p>
 
         <div className="container p-5">
                      
@@ -545,6 +1056,10 @@ export default function Projects() {
               <tr>
                 <td>Analysis & Structural Design of Steel Truss Roof at Kwil Winery 
                 at USA.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Structural analysis of sacondary “c” channel beam on existing frame of centeal bridge ramp.</td>
                 <td></td>
               </tr>
               

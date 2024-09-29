@@ -29,6 +29,7 @@ import FeaturedProject4 from './Components/FeaturedProject4';
 import FeaturedProject5 from './Components/FeaturedProject5';
 import FeaturedProject6 from './Components/FeaturedProject6';
 import FeaturedProject7 from './Components/FeaturedProject7';
+import ServicesNavbar from './Components/ServicesNavbar';
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
             <Route path="/downloads" element={<Downloads/>} />
            
             <Route path="/projects" element={<Projects/>} />
+            <Route path="/services" element={<ServicesNavbar/>} />
             <Route path="/our-clientele" element={<ClientsNavbar/>} />
             <Route path="/architecture" element={<Architecture/>} />
             <Route path="/engineering" element={<Engineering/>} />
