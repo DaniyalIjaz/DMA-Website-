@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Carousel.css';
 
 const Carousel = () => {
+  useEffect(() => {
+    // Ensure the carousel runs smoothly with a 3-second interval
+    const carousel = document.querySelector('#carouselExampleFade');
+    const bootstrapCarousel = new window.bootstrap.Carousel(carousel, {
+      interval: 3000,  // 3 seconds
+      ride: 'carousel',
+      wrap: true // Infinite looping
+    });
+
+    return () => {
+      bootstrapCarousel.dispose(); // Clean up on component unmount
+    };
+  }, []);
+
   return (
     <>
       <div
         id="carouselExampleFade"
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
-        data-bs-interval="2000"  // Changes slide every 2 seconds
+        data-bs-interval="3000"  // Changes slide every 3 seconds
+        data-bs-wrap="true"  // Ensures infinite looping
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -74,8 +89,6 @@ const Carousel = () => {
 };
 
 export default Carousel;
-
-
 
 
 
