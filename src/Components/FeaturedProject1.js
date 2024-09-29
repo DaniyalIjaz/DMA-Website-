@@ -50,7 +50,7 @@ const FeaturedProject1 = () => {
       </div>
 
       {/* Thumbnails */}
-      <div className="featuredProject1-thumbnail-container container">
+      <div className="featuredProject1-thumbnail-container container rounded mx-auto d-flex">
         {images.map((image, index) => (
           <div
             key={index}

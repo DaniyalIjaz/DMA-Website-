@@ -92,10 +92,10 @@ export default function Projects() {
 
       {/* images  */}
       <div className='featured-proj-img'>
-        {/* first img  */}
+        {/* first project  */}
 
         <div className='box'>
-        <img src="./image/ProjectsDetails/p1/7.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p1/3.jpg" alt="" />
 
                 <div className="overlay">
                       <h5>Omar Medical Tower</h5>  
@@ -104,7 +104,7 @@ export default function Projects() {
 
         </div>
 
-        {/* 2nd img  */}
+        {/* 2nd project */}
         <div className='box'>
         <img src="./image/ProjectsDetails/p2/1.jpg" alt="" />
 
@@ -115,7 +115,7 @@ export default function Projects() {
 
         </div>
 
-        {/* 3rd  */}
+        {/* 3rd project */}
         <div className='box'>
         <img src="./image/ProjectsDetails/p3/1.jpg" alt="" />
 
@@ -130,41 +130,60 @@ export default function Projects() {
 
       {/* 2nd div for images  */}
       <div className='featured-proj-img'>
-        {/* first img  */}
+
+        {/* fourth project  */}
 
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p4/1.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
-                        <NavLink to="/Architecture">More Info</NavLink>
+                      <h5>Hussain Medical Complex</h5>  
+                        <NavLink to="/projects/featured-project-4">More Info</NavLink>
                 </div>
 
         </div>
 
-        {/* 2nd img  */}
+        {/*fifth project */}
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p5/1.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
-                        <NavLink to="/Architecture">More Info</NavLink>
+                      <h5>NRC Hospital</h5>  
+                        <NavLink to="/projects/featured-project-5">More Info</NavLink>
                 </div>
 
         </div>
 
-        {/* 3rd  */}
+        {/* 6th project  */}
         <div className='box'>
-        <img src="./image/Projects/p1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p6/1.jpg" alt="" />
 
                 <div className="overlay">
-                      <h5>Bahria Grand Mosque</h5>  
-                        <NavLink to="/Architecture">More Info</NavLink>
+                      <h5>Eman Medical Tower</h5>  
+                        <NavLink to="/projects/featured-project-6">More Info</NavLink>
                 </div>
 
         </div>
+
+        
 
       </div>
+
+       {/* 3rd div for images  */}
+       <div className='featured-proj-img'>
+
+      {/* 7th project  */}
+      <div className='box'>
+        <img src="./image/ProjectsDetails/p7/1.jpg" alt="" />
+
+                <div className="overlay">
+                      <h5>Residential Unit at Garden Town</h5>  
+                        <NavLink to="/projects/featured-project-7">More Info</NavLink>
+                </div>
+
+        </div>
+
+        </div>
 
       {/* <WaterPressureCalculator/> */}
 

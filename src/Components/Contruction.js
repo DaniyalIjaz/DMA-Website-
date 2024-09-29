@@ -19,14 +19,18 @@ const Construction = () => {
       <p className="About-p lead mb-3">Design Man Associates offers both construction and construction management services.
 
       </p>
+      <img src="./image/CM3.jpg" className="d-block mx-lg-auto img-fluid rounded  my-4" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       <p className="About-p lead mb-3">In the area of construction services, Design Man Associates have professional engineers to manage projects and the best craftsmanship, which brings refinement in the construction detail. We believe in saving time to save your money. We endeavor to provide our clients with the highest quality finished products, at the best price and as expeditiously as possible to achieve this mission, we operate from a solid foundation of corporate beliefs. But what truly sets this company apart is its ability to innovate. With a keen eye for emerging technologies and techniques, Design Man Associates is at the forefront of the industry, constantly pushing the boundaries of what is possible in the world of construction.
 
 
       </p>
-      <p className="About-p lead mb-3">The management services include construction planning, scheduling, project monitoring, costing and development of cost control systems, preparation of cash, labor, plant, and material histograms, guide-lines for bidding strategies, development of quality assurance programs, and advice on preparation and interpretation of construction contracts. The company possesses specialized know-how on specification development for use in construction contracts. Our project management approach is proactive, responsive, and uncompromising on quality and safety. Construction Company defines a project as “successful” that is completed on schedule, on budget and according to the client’s technical specifications and performance requirements. 
+      <img src="./image/CM2.jpg" className="d-block mx-lg-auto img-fluid rounded  my-4" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+      <p className="About-p lead mb-3 ">The management services include construction planning, scheduling, project monitoring, costing and development of cost control systems, preparation of cash, labor, plant, and material histograms, guide-lines for bidding strategies, development of quality assurance programs, and advice on preparation and interpretation of construction contracts. The company possesses specialized know-how on specification development for use in construction contracts. Our project management approach is proactive, responsive, and uncompromising on quality and safety. Construction Company defines a project as “successful” that is completed on schedule, on budget and according to the client’s technical specifications and performance requirements. 
       </p>
+      <img src="./image/CM1.jpg" className="d-block mx-lg-auto img-fluid rounded  my-4" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
     </div>  
   </div>
+
 
       <Footer/>
     

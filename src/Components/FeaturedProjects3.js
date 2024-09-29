@@ -13,8 +13,7 @@ const FeaturedProject3 = () => {
     "/image/ProjectsDetails/p3/6.jpg",
     "/image/ProjectsDetails/p3/7.jpg",
     "/image/ProjectsDetails/p3/8.jpg",
-    "/image/ProjectsDetails/p3/9.jpg",
-    "/image/ProjectsDetails/p3/10.jpg"
+    "/image/ProjectsDetails/p3/9.jpg"
   ];
   
 
@@ -49,7 +48,7 @@ const FeaturedProject3 = () => {
       </div>
 
       {/* Thumbnails */}
-      <div className="featuredProject1-thumbnail-container container">
+      <div className="featuredProject1-thumbnail-container container rounded mx-auto d-flex">
         {images.map((image, index) => (
           <div
             key={index}

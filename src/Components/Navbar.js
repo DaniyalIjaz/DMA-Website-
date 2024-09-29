@@ -19,7 +19,7 @@ const Navbar = () =>{
                     {/* <li><a href="/">Career</a></li> */}
                     <li><a href="/" data-bs-toggle="modal" data-bs-target="#myModal">Contact Us</a></li>
 
-                    <li><NavLink to="/downloads">Downloads</NavLink></li>
+                    <li><NavLink to="/downloads">DMA Profile</NavLink></li>
 
                     <label htmlFor="check" className="close-menu"><i className="fas fa-times"></i></label>
                 </span>

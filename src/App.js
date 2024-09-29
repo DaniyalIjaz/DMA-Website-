@@ -25,6 +25,11 @@ import FeaturedProject1 from './Components/FeaturedProject1';
 import WhatsAppButton from './Components/WhatsAppButton';
 import FeaturedProject2 from './Components/FeaturedProjects2';
 import FeaturedProject3 from './Components/FeaturedProjects3';
+import FeaturedProject4 from './Components/FeaturedProject4';
+import FeaturedProject5 from './Components/FeaturedProject5';
+import FeaturedProject6 from './Components/FeaturedProject6';
+import FeaturedProject7 from './Components/FeaturedProject7';
+
 
 function App() {
 
@@ -51,6 +56,10 @@ function App() {
             <Route path="/projects/featured-project-1" element={<FeaturedProject1/>} />
             <Route path="/projects/featured-project-2" element={<FeaturedProject2/>} />
             <Route path="/projects/featured-project-3" element={<FeaturedProject3/>} />
+            <Route path="/projects/featured-project-4" element={<FeaturedProject4/>} />
+            <Route path="/projects/featured-project-5" element={<FeaturedProject5/>} />
+            <Route path="/projects/featured-project-6" element={<FeaturedProject6/>} />
+            <Route path="/projects/featured-project-7" element={<FeaturedProject7/>} />
         </Route>
       </Routes>
     </BrowserRouter>

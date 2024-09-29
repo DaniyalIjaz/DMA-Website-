@@ -76,10 +76,17 @@
 }
 
 /* Responsive styles */
+@media (max-width: 1400px) {
+  .featuredProject1-overlay{
+    height: 65%;
+  }
+ 
+}
 @media (min-width: 1200px) {
   .featuredProject1-thumbnail-container {
     grid-template-columns: repeat(10, 1fr); /* 10 columns on very large screens */
   }
+ 
 }
 
 @media (min-width: 600px) and (max-width: 1199px) {
@@ -89,9 +96,15 @@
   .featuredProject1-carousel {
     margin-bottom: 0px;
   }
+  .featuredProject1-overlay{
+    display: none;
+  }
 }
 
 @media (max-width: 599px) {
+  .featuredProject1-overlay{
+    display: none;
+  }
     .featuredProject1-thumbnail-container {
         margin-top: 0px;
         gap: 6px;
