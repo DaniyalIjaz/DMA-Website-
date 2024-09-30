@@ -1,12 +1,31 @@
 import React from 'react';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import NavLogo from '../assets/images/logo1.png';
+import { useState } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
 const Navbar = () => {
+
     const handleMenuClose = () => {
         document.getElementById('check').checked = false; // Uncheck the checkbox to close the menu
     };
+
+    const [show, setShow] = useState(false);
+
+    // Function to handle file download and show modal
+    const handleDownload = () => {
+      // Trigger file download
+      const link = document.createElement('a');
+      link.href = './image/DMAProfile.pdf'; // Path to your PDF file
+      link.download = 'DMAProfile.pdf';
+      link.click();
+      document.getElementById('check').checked = false; // Uncheck the checkbox to close the menu
+  
+      // Show the modal for notification
+      setShow(true);
+    };
+    const handleClose = () => setShow(false);
 
     return (
         <>   
@@ -27,7 +46,8 @@ const Navbar = () => {
                             <li><NavLink to="/team" onClick={handleMenuClose}>Team</NavLink></li>
                             <li><NavLink to="/our-clientele" onClick={handleMenuClose}>Our Clientele</NavLink></li>
                             <li><a href="/" onClick={handleMenuClose} data-bs-toggle="modal" data-bs-target="#myModal">Contact Us</a></li>
-                            <li><NavLink to="/downloads" onClick={handleMenuClose}>DMA Profile</NavLink></li>
+                            <li><Link onClick={handleDownload}>DMA Profile</Link></li>
+                            {/* <li onClick={handleDownload}>DMA Profile</li> */}
 
                             <label htmlFor="check" className="close-menu">
                                 <i className="fas fa-times"></i>
@@ -39,6 +59,24 @@ const Navbar = () => {
                     </ul>
                 </nav>
             </header>
+
+            {/* Modal for Downloads  */}
+            {/* Modal to notify the user */}
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Download Started</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Your file download has started! If the download didn’t start automatically, <a href="./image/DMAProfile.pdf" download="DMAProfile.pdf">click here</a>.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+
+            {/* Modal for Contacts  */}
             <div className="modal fade" id="myModal">
                 <div className="modal-dialog">
                     <div className="modal-content">

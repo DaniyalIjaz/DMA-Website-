@@ -18,7 +18,7 @@ import {
 } from "react-router-dom";
 import ClientsNavbar from './Components/ClientsNavbar';
 import Projects from './Components/Projects';
-import Downloads from './Downloads';
+// import Downloads from './Downloads';
 import ScrollToTop from './ScrollToTop';
 import ScrollOnTopButton from './Components/ScrollOnTopButton';
 import FeaturedProject1 from './Components/FeaturedProject1';
@@ -45,7 +45,7 @@ function App() {
             <Route index element={<Home/> } />
             <Route path="/about" element={<About/>} />
             <Route path="/team" element={<Team/>} />
-            <Route path="/downloads" element={<Downloads/>} />
+            {/* <Route path="/downloads" element={<Downloads/>} /> */}
            
             <Route path="/projects" element={<Projects/>} />
             <Route path="/services" element={<ServicesNavbar/>} />
