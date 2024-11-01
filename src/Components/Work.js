@@ -9,13 +9,12 @@ const Work = () => {
       <p>Take a chunk of our work by visiting our social handles.</p>
       
 <div className="container">
-  {/* <h1  data-bs-toggle="modal" data-bs-target="#myModal" className="cont-h1 display-1"><i className=" bi bi-play-fill"></i></h1> */}
+
   <div className="social-icons">
   <a href="https://www.facebook.com/profile.php?id=100065533447873" className="social-icon" target="_blank"><i className="fab fa-facebook"></i></a>
   <a href="https://www.youtube.com/@DesignManAssociates" className="social-icon" target="_blank"><i className="fab fa-youtube" ></i></a>
   <a href="https://www.instagram.com/designmanassociates.pk/" className="social-icon" target="_blank"><i className="fab fa-instagram"></i></a>
-  
-  {/* <!-- Add more social media icons as needed --> */}
+
 </div>
 
 </div>

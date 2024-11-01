@@ -1,7 +1,7 @@
 .scrollOnTopButton{
     position: fixed;
-    bottom: 16.5px;
-    right: 141.5px;
+    bottom: 15.5px;
+    right: 76px;
     z-index: 5;
     transition: all ease-in-out;
     cursor: pointer;
@@ -10,8 +10,8 @@
 
 /* button css  */
 .scrollbutton {
-    width: 51px;
-    height: 51px;
+    width: 51.5px;
+    height: 51.5px;
     border-radius: 50%;
     background-color: rgb(20, 20, 20);
     border: none;
