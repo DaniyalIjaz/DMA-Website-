@@ -28,7 +28,7 @@ const Engineering = () => {
     <div className="row flex-lg-row-reverse align-items-center g-5 ">
       
       <div className="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/SE.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/SE.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Structural engineering. Steel bars in different patterns" width="700" height="500" loading="lazy"/>
       </div>
 
       <div className="col-lg-6">
@@ -137,8 +137,8 @@ const Engineering = () => {
     <div className="row flex-lg-row-reverse align-items-center g-5 py-2">
       
       <div className="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/MEP.jpg" className="my-5 d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
-        <img src="./image/MEP2.png" className="my-5 d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/MEP.jpg" className="my-5 d-block mx-lg-auto img-fluid rounded" alt="Pipelines in MEP designing" width="700" height="500" loading="lazy"/>
+        <img src="./image/MEP2.png" className="my-5 d-block mx-lg-auto img-fluid rounded" alt="3d MEP design of buildings" width="700" height="500" loading="lazy"/>
       </div>
 
       <div className="col-lg-6">
@@ -171,7 +171,7 @@ Design Man Associates works as a unified team with dedicated professionals handl
     <img 
       src="./image/Mechenical.jpg" 
       className="img-fluid rounded" 
-      alt="Mechanical Design" 
+      alt="3d Mechanical Design of buildings" 
     />
   </div>
 </div>
@@ -237,7 +237,7 @@ Building systems, normal and emergency power.</p>
     <img 
       src="./image/E1.jpg" 
       className="img-fluid rounded" 
-      alt="Mechanical Design" 
+      alt="Electrical Design in construction planning" 
     />
         </div>
 
@@ -255,7 +255,7 @@ and meeting the applicable building codes.
     <img 
       src="./image/E2.jpg" 
       className="img-fluid rounded" 
-      alt="Mechanical Design" 
+      alt="Electrical Engineering" 
     />
         </div>
 
@@ -372,7 +372,7 @@ Building & Energy Management and Control System Design.
     <img 
       src="./image/Plumbing.jpg" 
       className="img-fluid rounded" 
-      alt="Mechanical Design" 
+      alt="Plumbing and fire protection design" 
     />
         </div>
        
@@ -480,7 +480,7 @@ Building & Energy Management and Control System Design.
     <div className="row flex-lg-row-reverse align-items-center g-5 py-1">
       
       <div className="col-10 col-sm-8 col-lg-6 mx-auto">
-        <img src="./image/SoilT.png" className="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+        <img src="./image/SoilT.png" className="d-block mx-lg-auto img-fluid rounded" alt="Soil and building testing with construction equipments" width="700" height="500" loading="lazy"/>
 
 
       </div>

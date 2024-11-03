@@ -43,7 +43,7 @@ export default function Projects() {
   //   prevArrow: <SamplePrevArrow />
   // };
   return (
-    <>
+    <>  
     <div className="project-main">
 
       {/* heading signature projects */}
@@ -95,7 +95,7 @@ export default function Projects() {
         {/* first project  */}
 
         <div className='box'>
-        <img src="./image/ProjectsDetails/p1/3.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p1/3.jpg" alt="Omar Medical Tower" />
 
                 <div className="overlay">
                       <h5>Omar Medical Tower</h5>  
@@ -106,7 +106,7 @@ export default function Projects() {
 
         {/* 2nd project */}
         <div className='box'>
-        <img src="./image/ProjectsDetails/p2/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p2/1.jpg" alt="AL-Qaim Industry" />
 
                 <div className="overlay">
                       <h5>AL-Qaim Industry</h5>  
@@ -117,7 +117,7 @@ export default function Projects() {
 
         {/* 3rd project */}
         <div className='box'>
-        <img src="./image/ProjectsDetails/p3/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p3/1.jpg" alt="Industrial Godown Building" />
 
                 <div className="overlay">
                       <h5>Industrial Godown Building</h5>  
@@ -134,7 +134,7 @@ export default function Projects() {
         {/* fourth project  */}
 
         <div className='box'>
-        <img src="./image/ProjectsDetails/p4/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p4/1.jpg" alt="Hussain Medical Complex" />
 
                 <div className="overlay">
                       <h5>Hussain Medical Complex</h5>  
@@ -145,7 +145,7 @@ export default function Projects() {
 
         {/*fifth project */}
         <div className='box'>
-        <img src="./image/ProjectsDetails/p5/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p5/1.jpg" alt="NRC Hospital" />
 
                 <div className="overlay">
                       <h5>NRC Hospital</h5>  
@@ -156,7 +156,7 @@ export default function Projects() {
 
         {/* 6th project  */}
         <div className='box'>
-        <img src="./image/ProjectsDetails/p6/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p6/1.jpg" alt="Eman Medical Tower" />
 
                 <div className="overlay">
                       <h5>Eman Medical Tower</h5>  
@@ -174,7 +174,7 @@ export default function Projects() {
 
       {/* 7th project  */}
       <div className='box'>
-        <img src="./image/ProjectsDetails/p7/1.jpg" alt="" />
+        <img src="./image/ProjectsDetails/p7/1.jpg" alt="Residential Unit at Garden Town" />
 
                 <div className="overlay">
                       <h5>Residential Unit at Garden Town</h5>  

@@ -24,7 +24,7 @@ const CEOmessage = () => {
 <p className='lead CEO-para fw-medium pb-4'> CEO, Design Man Associates</p>
       </div>
       <div className="col-md-5 pb-4">
-        <img src="./image/CEO.jpeg" className='img-fluid rounded' alt="" />
+        <img src="./image/CEO.jpeg" className='img-fluid rounded' alt="CEO of Design Man Associates" />
       </div>
     </div>
     </div>

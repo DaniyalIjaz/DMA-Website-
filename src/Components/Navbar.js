@@ -34,7 +34,7 @@ const Navbar = () => {
                     <ul className='nav-bar'>
                         <li className='logo'>
                             <NavLink to='/' onClick={handleMenuClose}>
-                                <img src={NavLogo} alt="Logo" />
+                                <img src={NavLogo} alt="DMA logo" />
                             </NavLink>
                         </li>
                         <input type='checkbox' id='check' />

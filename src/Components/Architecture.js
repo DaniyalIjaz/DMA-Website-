@@ -22,7 +22,7 @@ const Architecture = () => {
       <div className="container col-xxl-8 px-4 py-3 border-bottom">
         <div className="row flex-lg-row-reverse align-items-center g-5">
           <div className="col-12 col-sm-10 col-lg-6 mx-auto">
-            <img src="./image/AD.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Architectural Design" width="700" height="500" loading="lazy"/>
+            <img src="./image/AD.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Architectural Design, Building and Elevation design of modern house" width="700" height="500" loading="lazy"/>
           </div>
           <div className="col-lg-6">
             <h3 className="display-5 fw-bold text-body-emphasis lh-1 mb-3 Archi-h">Architectural Design</h3>
@@ -68,7 +68,7 @@ const Architecture = () => {
     <div className="col-12 d-flex flex-wrap justify-content-center gap-3">
       {['ID1.png', 'ID2.png', 'ID3.png'].map((img, index) => (
         <div key={index} className="col-6 col-md-3 d-flex justify-content-center mb-3">
-          <img src={`./image/${img}`} className="img-fluid rounded" alt="Interior Design" loading="lazy"/>
+          <img src={`./image/${img}`} className="img-fluid rounded" alt="Interior Design of modern home with modern ceiling paint and lighting having a perfect light and classic theme" loading="lazy"/>
         </div>
       ))}
     </div>
@@ -88,7 +88,7 @@ const Architecture = () => {
             </p>
           </div>
           <div className="col-12 col-sm-10 col-lg-6 mx-auto">
-            <img src="./image/Planning.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Master Planning" width="700" height="500" loading="lazy"/>
+            <img src="./image/Planning.jpg" className="d-block mx-lg-auto img-fluid rounded" alt="Engineer planning to create a building" width="700" height="500" loading="lazy"/>
           </div>
 
         </div>

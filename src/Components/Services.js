@@ -21,7 +21,7 @@ const Services = () => {
 
           <h3 >ARCHITECTURE</h3>
           <div className="box">
-            <img src="./image/Archi.jpg" alt="" />
+            <img src="./image/Archi.jpg" alt="Images showing Architectural design, Building elevations, Building designs, Interior design" />
             <div className="overlay">
               <h3>ARCHITECTURE</h3>
               <p>Our architects turn the visions into stunning structures.</p>
@@ -37,7 +37,7 @@ const Services = () => {
 
           <h3 >ENGINEERING</h3>
           <div className="box">
-            <img src="./image/Eng.jpg" alt="" />
+            <img src="./image/Eng.jpg" alt="Images showing Structural engineering including MEP designing, Mechanical and Electrical design, Plumbing and fire protection design, Soil and building testing" />
             <div className="overlay">
             <h3>ENGINEERING</h3>
               <p>Structural engineering is an area of specialization of Design Man Associates.</p>
@@ -50,7 +50,7 @@ const Services = () => {
 
           <h3 >CONSTRUCTION</h3>
           <div className="box">
-            <img src="./image/Cons.jpg" alt="" />
+            <img src="./image/Cons.jpg" alt="Labours doing construction" />
             <div className="overlay">
             <h3>CONSTRUCTION</h3>
               <p>Design Man Associates offers both construction and construction management services.</p>

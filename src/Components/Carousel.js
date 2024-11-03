@@ -27,7 +27,7 @@ const Carousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="./image/c1.jpg" className="d-block w-100" alt="..." />
+            <img src="./image/c1.jpg" className="d-block w-100" alt="Architectural building in black and white. Architectural design" />
             <div className="container">
               <div className="carousel-caption text-end">
                 <p className="carousel-heading">
@@ -41,7 +41,7 @@ const Carousel = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="./image/c2.jpg" className="d-block w-100" alt="..." />
+            <img src="./image/c2.jpg" className="d-block w-100" alt="Buildings design in black and white" />
             <div className="container">
               <div className="carousel-caption">
                 <p className="carousel-heading">WE BUILD YOUR FUTURE</p>
@@ -53,7 +53,7 @@ const Carousel = () => {
           </div>
 
           <div className="carousel-item">
-            <img src="./image/c3.jpg" className="d-block w-100" alt="..." />
+            <img src="./image/c3.jpg" className="d-block w-100" alt="A labourer doing his work. Construction in Lahore. Structural engineering" />
             <div className="container">
               <div className="carousel-caption text-end">
                 <p className="carousel-heading">

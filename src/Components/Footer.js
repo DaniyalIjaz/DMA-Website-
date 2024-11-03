@@ -58,7 +58,7 @@ designmanassociates@gmail.com</h6>
   <h2 data-text='Design Man Associates'>Design Man Associates</h2>
     </div> */}
     <div className="footer-col">
-        <img src={FooterLogo} alt="logo" className='footer-logo mx-auto d-block ' style={{maxWidth:'16%'}} />
+        <img src={FooterLogo} alt="DMA logo" className='footer-logo mx-auto d-block ' style={{maxWidth:'16%'}} />
         <p className='text-center footer-p'>Architects | Civil, Structural & MEP Consultants | Contractors</p>
       </div>
         
